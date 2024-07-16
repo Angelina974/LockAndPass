@@ -1,0 +1,38 @@
+.auth-title {
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
+
+.auth-form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.auth-buttons {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-button {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.auth-button:hover {
+    background-color: #88b8ff;
+    color: black;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "LockAndPass",
+  "version": "1.0.0",
+  "description": "Une application desktop qui permet de gérer les mots de passe",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "clean": "rimraf dist",
+    "build": "npm run clean && electron-builder"
+  },
+  "build": {
+    "appId": "com.LockAndPass.app",
+    "win": {
+      "target": "nsis",
+      "icon": "ressources/icon.ico"
+    },
+    "directories": {
+      "buildResources": "build"
+    }
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "electron-store": "^8.0.0"
+  }
+}
