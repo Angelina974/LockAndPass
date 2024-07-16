@@ -31,7 +31,7 @@ function addPassword() {
                 items: [
                     {
                         id: "password",
-                        type: "text",
+                        type: "password",
                         label: "Mot de passe",
                         labelPosition: "top",
                         width: "100%"
